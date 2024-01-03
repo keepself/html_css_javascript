@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>CSS BASIC</title>
+    <style>
+        body{
+           background-color : aliceblue;
+        }
+        p{
+            background-color: aqua;
+            /* text 디자인 */
+            letter-spacing: 2px;
+            word-spacing: 5px;
+        }
+        .italic{
+                    font-style: italic;
+        }
+        .bigtext{
+                    font-size: 24px;
+        }
+        .relativetext{font-size: 120%;}
+        .em parent{font: 20px;}
+        .em child{font-size: 1.5em;}
+        .percent_ parent{font-size: 20px;}
+        .percent_child{font-size: 150%;}
+    
+        </style>
+</head>
+<body>
+    <h2>CSS 기본 문법</h2>
+    <p>우선 적용</p>
+
+    <p class="italic bigtext">font stlye과 font size 중첩적용1</p>
+    <p class="italic relativetext">font stlye과 font size 중첩적용2</p>
+
+    <!-- em : 배수 percent: 퍼센트비교 -->
+    <div class="em_parent">
+        <div class="em_child">
+            이 텍스트는 부모 글꼴의 1.5배크기의 글꼴입니다.
+        
+        </div>
+    </div>
+    <div class="percent_parent">
+        <div class="percent_child">
+            이 텍스트는 부모 글꼴의 150%크기의 글꼴입니다.
+        
+        </div>
+    </div>
+
+    <div style="border: 5px solid black; padding: 15px; margin: 15px;">
+        margin, border, padding을 가진 요소
+    </div>
+
+    <div style="padding-left: 20px;">
+    왼쪽 padding만을 가진 텍스트 요소   
+    </div>
+
+
+    <div>
+        <table> 
+ 
+        <tr>
+                <th>제목1</th>
+                <th>제목1</th>
+                
+        </tr>
+
+    
+   
+        <tr>
+                <td>내용1</td>
+                <td>내용1</tr>
+                
+        </tr>
+    </table>
+
+
+
+</div>
+
+
+
+
+
+</body>
+</html>
